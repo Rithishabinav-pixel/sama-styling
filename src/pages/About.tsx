@@ -21,14 +21,14 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div data-aos="fade-right">
               <img
-                src="https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Sangeeta Khorana"
-                className="rounded-lg shadow-xl w-full h-[600px] object-cover"
-              />
+              src="./src/images/hp_about.png"
+              alt="Sangeeta Khorana"
+              className="rounded-lg shadow-xl w-full h-[500px] object-cover"
+            />
             </div>
 
             <div data-aos="fade-left">
-              <h2 className="text-3xl font-serif font-bold text-[#A88B58] mb-6">
+              <h2 className="text-5xl font-serif font-bold text-[#A88B58] mb-6">
                 A Passion for Creative Excellence
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
@@ -54,7 +54,7 @@ export default function About() {
           </div>
 
           <div className="bg-[#E8E0D5] rounded-lg p-12 mb-20" data-aos="fade-up">
-            <h2 className="text-3xl font-serif font-bold text-[#A88B58] mb-8 text-center">
+            <h2 className="text-5xl font-serif font-bold text-[#A88B58] mb-8 text-center">
               The SAM Styling Journey
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
@@ -94,7 +94,7 @@ export default function About() {
 
       <section className="py-20 bg-[#E8E0D5]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
-          <h2 className="text-3xl font-serif font-bold text-[#A88B58] mb-6">
+          <h2 className="text-5xl font-serif font-bold text-[#A88B58] mb-6">
             Creative Philosophy
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">

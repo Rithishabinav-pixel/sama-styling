@@ -49,7 +49,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div data-aos="fade-right">
-              <h2 className="text-3xl font-serif font-bold text-[#A88B58] mb-6">
+              <h2 className="text-5xl font-serif font-bold text-[#A88B58] mb-6">
                 Contact Information
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-8">

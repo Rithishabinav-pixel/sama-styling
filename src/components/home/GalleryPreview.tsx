@@ -3,28 +3,28 @@ import { Link } from 'react-router-dom';
 export default function GalleryPreview() {
   const galleryImages = [
     {
-      url: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=600',
-      category: 'Events',
+      url: './src/images/cl1.png',
+      category: 'Event Styling',
     },
     {
-      url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600',
+      url: './src/images/cl2.png',
+      category: 'Gifting Ideas',
+    },
+    {
+      url: './src/images/cl3.png',
       category: 'Fashion',
     },
     {
-      url: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600',
-      category: 'Home Décor',
+      url: './src/images/cl4.png',
+      category: 'Fashion',
     },
     {
-      url: 'https://images.pexels.com/photos/264905/pexels-photo-264905.jpeg?auto=compress&cs=tinysrgb&w=600',
-      category: 'Gifting',
+      url: './src/images/cl5.png',
+      category: 'Fashion',
     },
     {
-      url: 'https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=600',
-      category: 'Events',
-    },
-    {
-      url: 'https://images.pexels.com/photos/1918290/pexels-photo-1918290.jpeg?auto=compress&cs=tinysrgb&w=600',
-      category: 'Home Décor',
+      url: './src/images/cl6.png',
+      category: 'Fashion',
     },
   ];
 
@@ -33,10 +33,10 @@ export default function GalleryPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#A88B58] mb-4">
-            Our Work
+           See How It Comes Together
           </h2>
-          <p className="text-gray-700 text-lg">
-            A glimpse into our creative projects and designs
+          <p className="text-gray-700 text-lg max-w-4xl m-auto">
+            Explore moments, details, and designs created across fashion, events, and gifting, each one guided by emotion, craftsmanship, and intention.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function GalleryPreview() {
             to="/gallery"
             className="inline-block bg-[#A88B58] text-white px-8 py-3 rounded-full font-medium hover:bg-[#967A4A] transition-colors shadow-md"
           >
-            View Full Gallery
+            View Our Works
           </Link>
         </div>
       </div>

@@ -112,7 +112,7 @@ export default function Services() {
                     <div className="w-14 h-14 bg-[#A88B58] rounded-full flex items-center justify-center">
                       <service.icon className="w-7 h-7 text-white" />
                     </div>
-                    <h2 className="text-3xl font-serif font-bold text-[#A88B58]">
+                    <h2 className="text-4xl font-serif font-bold text-[#A88B58]">
                       {service.title}
                     </h2>
                   </div>
@@ -138,7 +138,7 @@ export default function Services() {
 
       <section className="py-20 bg-[#E8E0D5]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
-          <h2 className="text-3xl font-serif font-bold text-[#A88B58] mb-6">
+          <h2 className="text-5xl font-serif font-bold text-[#A88B58] mb-6">
             Let's Create Something Beautiful Together
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-8">

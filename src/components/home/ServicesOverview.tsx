@@ -5,27 +5,27 @@ export default function ServicesOverview() {
   const services = [
     {
       icon: Calendar,
-      title: 'Event Management',
+      title: 'Event Styling',
       description:
-        'Expertly curated events that leave lasting impressions, from concept to execution with meticulous attention to every detail.',
+        'Concept-led event styling including decor design, tablescapes, textiles, lighting accents, and finishing details for intimate and large-scale celebrations.',
     },
     {
       icon: Sparkles,
-      title: 'Fashion Design',
+      title: 'Fashion Designing',
       description:
-        'Contemporary fashion pieces that blend traditional elegance with modern aesthetics, tailored to your unique style.',
+        'Bespoke fashion design rooted in Indian textiles, modern silhouettes, and detailed craftsmanship for occasions, celebrations, and personal wardrobes.',
     },
     {
       icon: Home,
-      title: 'Home Décor',
+      title: 'Home Decor',
       description:
-        'Transform your living spaces into personalized sanctuaries that reflect your personality and lifestyle.',
+        'Curated home décor accents, soft furnishings, and styling details designed to elevate everyday spaces with warmth, balance, and character.',
     },
     {
       icon: Gift,
-      title: 'Personalized Gifting',
+      title: 'Gifting Ideas',
       description:
-        'Thoughtfully curated gift concepts that convey your sentiments with elegance and sophistication.',
+        'Custom gifting concepts featuring curated products, handcrafted elements, and bespoke packaging for celebrations, hosts, and meaningful occasions.',
     },
   ];
 
@@ -34,10 +34,14 @@ export default function ServicesOverview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#A88B58] mb-4">
-            Our Services
+            Services
           </h2>
-          <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Comprehensive creative solutions tailored to bring your vision to life
+          <h3 className="text-gray-700 font-bold text-xl max-w-2xl mx-auto">
+            What We Can Help You Create
+          </h3>
+          <p className="text-gray-700 text-lg mt-5 max-w-2xl mx-auto">
+            Every service begins with a conversation about your ideas, your story, and how you want it to feel.
+
           </p>
         </div>
 
@@ -52,7 +56,7 @@ export default function ServicesOverview() {
               <div className="w-16 h-16 bg-[#A88B58]/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-[#A88B58] transition-colors">
                 <service.icon className="w-8 h-8 text-[#A88B58] group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-xl font-serif font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
                 {service.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">{service.description}</p>
@@ -65,7 +69,7 @@ export default function ServicesOverview() {
             to="/services"
             className="inline-block bg-[#A88B58] text-white px-8 py-3 rounded-full font-medium hover:bg-[#967A4A] transition-colors shadow-md"
           >
-            Explore All Services
+            Explore Our Services
           </Link>
         </div>
       </div>

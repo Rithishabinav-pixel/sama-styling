@@ -15,7 +15,7 @@ export default function Testimonials() {
     {
       text: 'Our home has never looked better! Sangeeta\'s décor styling brought warmth and elegance to every corner of our living space.',
       author: 'Anjali Patel',
-      role: 'Home Décor Client',
+      role: 'Home Decor Client',
     },
   ];
 

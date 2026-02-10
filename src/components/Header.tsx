@@ -30,29 +30,37 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-4' : 'bg-white/95 py-6'
+        isScrolled || isMobileMenuOpen ? 'bg-white shadow-md py-0' : 'bg-white/0 py-1'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-serif font-bold text-[#A88B58] tracking-wide">
+          {/* <Link to="/" className="text-2xl font-serif font-bold text-[#A88B58] tracking-wide">
             SAM Styling
+          </Link> */}
+
+          <Link to="/" className="text-2xl font-serif font-bold text-[#A88B58] tracking-wide">
+            <img src="./src/images/logo.png" className="w-[70px] md:w-[100px]" />
+
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`text-sm font-medium tracking-wide transition-colors ${
-                  location.pathname === link.path
-                    ? 'text-[#A88B58]'
-                    : 'text-gray-700 hover:text-[#A88B58]'
-                }`}
-              >
-                {link.name}
-              </Link>
-            ))}
+           {navLinks.map((link) => (
+  <Link
+    key={link.path}
+    to={link.path}
+    className={`text-sm font-medium tracking-wide transition-colors ${
+      location.pathname === link.path
+        ? "text-[#A88B58]"
+        : isScrolled 
+        ? "text-gray-700 hover:text-[#A88B58]"
+        : "text-white hover:text-[#A88B58]"
+    }`}
+  >
+    {link.name}
+  </Link>
+))}
+
             <Link
               to="/contact"
               className="bg-[#A88B58] text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-[#967A4A] transition-colors shadow-md"
@@ -76,14 +84,14 @@ export default function Header() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
+                  strokeWidth={2} stroke={isScrolled ||isMobileMenuOpen ?"black":"white"}
                   d="M6 18L18 6M6 6l12 12"
                 />
               ) : (
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
+                  strokeWidth={2} stroke={isScrolled || isMobileMenuOpen?"black":"white"}
                   d="M4 6h16M4 12h16M4 18h16"
                 />
               )}
@@ -97,7 +105,7 @@ export default function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`block py-2 text-sm font-medium tracking-wide transition-colors ${
+                className={`block py-2 text-m font-medium tracking-wide transition-colors ${
                   location.pathname === link.path
                     ? 'text-[#A88B58]'
                     : 'text-gray-700'
