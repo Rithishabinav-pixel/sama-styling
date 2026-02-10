@@ -6,7 +6,7 @@ export default function HeroSection() {
       className="relative hp_hero_banner h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./src/images/hero_banner.png)',
+          'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/src/assets/hero_banner.png)',
       }}
     >
       <div className="absolute inset-0 bg-black opacity-0"></div>

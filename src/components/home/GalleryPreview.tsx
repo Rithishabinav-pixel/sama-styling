@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 export default function GalleryPreview() {
   const galleryImages = [
     {
-      url: './src/images/cl1.png',
+      url: '/src/assets/cl1.png',
       category: 'Event Styling',
     },
     {
-      url: './src/images/cl2.png',
+      url: '/src/assets/cl2.png',
       category: 'Gifting Ideas',
     },
     {
-      url: './src/images/cl3.png',
+      url: '/src/assets/cl3.png',
       category: 'Fashion',
     },
     {
-      url: './src/images/cl4.png',
+      url: '/src/assets/cl4.png',
       category: 'Fashion',
     },
     {
-      url: './src/images/cl5.png',
+      url: '/src/assets/cl5.png',
       category: 'Fashion',
     },
     {
-      url: './src/images/cl6.png',
+      url: '/src/assets/cl6.png',
       category: 'Fashion',
     },
   ];

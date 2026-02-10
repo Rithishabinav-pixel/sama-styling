@@ -40,7 +40,7 @@ export default function Header() {
           </Link> */}
 
           <Link to="/" className="text-2xl font-serif font-bold text-[#A88B58] tracking-wide">
-            <img src="./src/images/logo.png" className="w-[70px] md:w-[100px]" />
+            <img src="/src/assets/logo.png" className="w-[70px] md:w-[100px]" />
 
           </Link>
 

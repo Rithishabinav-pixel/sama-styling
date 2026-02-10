@@ -21,7 +21,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div data-aos="fade-right">
               <img
-              src="./src/images/hp_about.png"
+              src="/src/assets/hp_about.png"
               alt="Sangeeta Khorana"
               className="rounded-lg shadow-xl w-full h-[500px] object-cover"
             />
