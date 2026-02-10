@@ -40,7 +40,7 @@
   animation: hp_hero_banner 8s infinite alternate linear;
 }
 
-@media screen and (min-wdth:1023px) {
+@media screen and (min-width:1023px) {
  
 
 @keyframes hp_hero_banner {
